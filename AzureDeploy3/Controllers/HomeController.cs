@@ -12,6 +12,7 @@ namespace AzureDeploy3.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.Test = "Hello World";
             return View();
         }
 
